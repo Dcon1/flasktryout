@@ -30,10 +30,9 @@ def is_valid_password(password):
             count_lower += 1
         elif char.isupper():
             count_upper += 1
-        elif char.isdigit:
+        elif char.isnumeric():
             count_digit += 1
         else:
-            char in SPECIAL_CHARACTERS
             count_special += 1
 
     if count_lower == 0 or count_upper == 0 or count_digit == 0:
