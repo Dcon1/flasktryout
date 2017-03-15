@@ -1,3 +1,7 @@
+"""
+I needed to ad an if statement to break the while loop otherwise my final - integer was added to this list, is this correct?
+"""
+
 def main():
     user_num = int(input("Please enter a number"))
     numbers = [user_num]
