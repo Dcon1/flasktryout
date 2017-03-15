@@ -1,3 +1,5 @@
+""" I struggled with this, do we have to import csv? I could not figure a way to efficiently added columns to a list"""
+
 import random
 MIN_NUM = 1
 MAX_NUM = 45
